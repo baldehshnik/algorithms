@@ -5,8 +5,20 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * The class is used to implement bubble sort algorithm for collections and not primitive arrays.
+ *
+ * @author Shcherba Vladislav
+ * @version 1.0
+ * */
 public class BubbleSort<T extends Comparable<T>> {
 
+    /**
+     * Implements bubble sort and sorts list of <T> type.
+     * This method sorts the given list and return nothing.
+     *
+     * @param list - list that should be sorted
+     * */
     public void sort(List<T> list) {
         if (list == null) {
             return;
@@ -27,6 +39,12 @@ public class BubbleSort<T extends Comparable<T>> {
         }
     }
 
+    /**
+     * Implements bubble sort and sorts array of <T> type.
+     * This method sorts the given array and return nothing.
+     *
+     * @param array - array that should be sorted
+     * */
     public void sort(T[] array) {
         if (array == null) {
             return;
@@ -49,6 +67,12 @@ public class BubbleSort<T extends Comparable<T>> {
         }
     }
 
+    /**
+     * Implements bubble sort and sorts list of <T> type.
+     *
+     * @param list - list that should be sorted
+     * @return - new list in the sorted order
+     * */
     public List<T> sorted(List<T> list) {
         if (list == null) {
             return null;
@@ -60,6 +84,12 @@ public class BubbleSort<T extends Comparable<T>> {
         return newList;
     }
 
+    /**
+     * Implements bubble sort and sorts array of <T> type.
+     *
+     * @param array - array that should be sorted
+     * @return - new array in the sorted order
+     * */
     public T[] sorted(T[] array) {
         if (array == null) {
             return null;

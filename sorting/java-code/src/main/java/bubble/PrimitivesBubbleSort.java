@@ -1,7 +1,19 @@
 package bubble;
 
+/**
+ * The class is used to implement bubble sort algorithm for primitive arrays.
+ *
+ * @author Shcherba Vladislav
+ * @version 1.0
+ * */
 public class PrimitivesBubbleSort {
 
+    /**
+     * Implements bubble sort and sorts integer numbers array.
+     * This method sorts the given array and return nothing.
+     *
+     * @param array - array that should be sorted
+     * */
     public void sort(int[] array) {
         if (array == null) {
             return;
@@ -24,6 +36,12 @@ public class PrimitivesBubbleSort {
         }
     }
 
+    /**
+     * Implements bubble sort and sorts double numbers array (double[]).
+     * This method sorts the given array and return nothing.
+     *
+     * @param array - array that should be sorted
+     * */
     public void sort(double[] array) {
         if (array == null) {
             return;
@@ -46,6 +64,12 @@ public class PrimitivesBubbleSort {
         }
     }
 
+    /**
+     * Implements bubble sort and sorts integer numbers array (int[]).
+     *
+     * @param array - array that should be sorted
+     * @return - new array in the sorted order
+     * */
     public int[] sorted(int[] array) {
         if (array == null) {
             return null;
@@ -58,6 +82,12 @@ public class PrimitivesBubbleSort {
         return arrayCopy;
     }
 
+    /**
+     * Implements bubble sort and sorts double numbers array (int[]).
+     *
+     * @param array - array that should be sorted
+     * @return - new array in the sorted order
+     * */
     public double[] sorted(double[] array) {
         if (array == null) {
             return null;
