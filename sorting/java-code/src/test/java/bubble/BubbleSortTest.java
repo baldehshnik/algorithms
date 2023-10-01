@@ -1,6 +1,6 @@
 package bubble;
 
-import bubble.entity.TestEntity;
+import entity.TestEntity;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package bubble.entity;
+package entity;
 
 import org.jetbrains.annotations.NotNull;
 
