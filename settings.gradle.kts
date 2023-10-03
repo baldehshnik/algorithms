@@ -14,3 +14,5 @@ include("sorting:java-code")
 findProject(":sorting:java-code")?.name = "java-code"
 include("sorting:kotlin-code")
 findProject(":sorting:kotlin-code")?.name = "kotlin-code"
+include("search:java-code")
+findProject(":search:java-code")?.name = "java-code"
