@@ -17,3 +17,11 @@ Implemented algorithms:
     <b><h4>Complexity Analysis of Insertion Sort:</h4></b>
     &emsp;<b>Time Complexity:</b> O(N^2)
     </br>&emsp;<b>Auxiliary Space:</b> O(1)
+
+ * Search:
+   * <b>[Binary Search](https://www.geeksforgeeks.org/binary-search/ "Binary Search – Data Structure and Algorithm Tutorials") (Java).</b>
+   Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half.
+   The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N).
+   <b><h4>Complexity Analysis of Binary Search:</h4></b>
+   &emsp;<b>Time Complexity:</b> O(log N)
+   </br>&emsp;<b>Auxiliary Space:</b> O(1)
