@@ -8,6 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/search" />
+            <option value="$PROJECT_DIR$/search/java-code" />
             <option value="$PROJECT_DIR$/sorting" />
             <option value="$PROJECT_DIR$/sorting/java-code" />
             <option value="$PROJECT_DIR$/sorting/kotlin-code" />

@@ -3,8 +3,20 @@ package binary;
 import java.util.List;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * The class implements binary search for comparable generic type
+ *
+ * @author Shcherba Vladislav
+ * @version 1.0
+ * */
 public class BinarySearch<T extends Comparable<T>> {
 
+    /**
+     * This method implements binary search for a list with generic type
+     *
+     * @param list - sorted list of elements
+     * @param element - search element
+     * */
     public int search(@NotNull List<T> list, @NotNull T element) {
         int startIndex = 0;
         int endIndex = list.size() - 1;
@@ -25,6 +37,12 @@ public class BinarySearch<T extends Comparable<T>> {
         return -1;
     }
 
+    /**
+     * This method implements binary search for an array with generic type
+     *
+     * @param array - sorted array of elements
+     * @param element - search element
+     * */
     public int search(@NotNull T[] array, @NotNull T element) {
         int startIndex = 0;
         int endIndex = array.length - 1;
