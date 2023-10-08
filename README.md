@@ -18,6 +18,13 @@ Implemented algorithms:
     &emsp;<b>Time Complexity:</b> O(N^2)
     </br>&emsp;<b>Auxiliary Space:</b> O(1)
 
+   * <b>[Selection Sort](https://www.geeksforgeeks.org/selection-sort/ "Selection Sort – Data Structure and Algorithm Tutorials") (Java).</b>
+    Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list
+    and moving it to the sorted portion of the list.
+    <b><h4>Complexity Analysis of Selection Sort:</h4></b>
+    &emsp;<b>Time Complexity:</b> O(N^2)
+    </br>&emsp;<b>Auxiliary Space:</b> O(1)
+
  * Search:
    * <b>[Binary Search](https://www.geeksforgeeks.org/binary-search/ "Binary Search – Data Structure and Algorithm Tutorials") (Java).</b>
    Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half.
