@@ -1,13 +1,27 @@
 package selection;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * The class is used to implement selection sort algorithm for collections and not primitive arrays.
+ *
+ * @author Shcherba Vladislav
+ * @version 1.0
+ * */
 public class SelectionSort<T extends Comparable<T>> {
 
-    public void sort(T[] array) {
+    /**
+     * Implements selection sort and sorts array of <T> type.
+     * This method sorts the given array and returns nothing.
+     *
+     * @param array - array that should be sorted
+     * */
+    public void sort(T @NotNull [] array) {
         for (int i = 0; i < array.length; i++) {
             T minValue = array[i];
             int minId = i;
@@ -23,7 +37,13 @@ public class SelectionSort<T extends Comparable<T>> {
         }
     }
 
-    public void sort(List<T> list) {
+    /**
+     * Implements selection sort and sorts list of <T> type.
+     * This method sorts the given list and returns nothing.
+     *
+     * @param list - list that should be sorted
+     * */
+    public void sort(@NotNull List<T> list) {
         for (int i = 0; i < list.size(); i++) {
             T minValue = list.get(i);
             int minId = i;
@@ -38,14 +58,26 @@ public class SelectionSort<T extends Comparable<T>> {
         }
     }
 
-    public T[] sorted(T[] array) {
+    /**
+     * Uses selection sort {@link SelectionSort#sort(Comparable[])} to sort an array copy of <T> type and returns him.
+     *
+     * @param array - array a copy of which should be sorted
+     * @return - new array in the sorted order
+     * */
+    public T[] sorted(T @NotNull [] array) {
         T[] newArray = Arrays.copyOf(array, array.length);
         sort(newArray);
 
         return newArray;
     }
 
-    public List<T> sorted(List<T> list) {
+    /**
+     * Uses selection sort {@link SelectionSort#sort(List)} to sort a list copy of <T> type and returns him.
+     *
+     * @param list - list a copy of which should be sorted
+     * @return - new list in the sorted order
+     * */
+    public List<T> sorted(@NotNull List<T> list) {
         List<T> newList = new ArrayList<>(list);
         sort(newList);
 
