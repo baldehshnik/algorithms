@@ -70,7 +70,7 @@ public class InsertionSort<T extends Comparable<T>> {
     /**
      * Uses insertion sort {@link InsertionSort#sort(List)} to sort a list copy of <T> type and returns him.
      *
-     * @param list - list a copy of witch should be sorted
+     * @param list - list a copy of which should be sorted
      * @return - new list in the sorted order
      * */
     public List<T> sorted(@NotNull List<T> list) {
@@ -83,7 +83,7 @@ public class InsertionSort<T extends Comparable<T>> {
     /**
      * Uses insertion sort {@link InsertionSort#sort(Comparable[])} to sort an array copy of <T> type and returns him.
      *
-     * @param array - array a copy of witch should be sorted
+     * @param array - array a copy of which should be sorted
      * @return - new array in the sorted order
      * */
     public T[] sorted(@NotNull T[] array) {

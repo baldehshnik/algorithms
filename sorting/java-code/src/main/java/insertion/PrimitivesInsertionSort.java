@@ -60,7 +60,7 @@ public class PrimitivesInsertionSort {
      * Uses insertion sort {@link PrimitivesInsertionSort#sort(int[])} to sort an int[] array.
      * This method sorts the given array and returns new int[] array.
      *
-     * @param array - array a copy of witch should be sorted
+     * @param array - array a copy of which should be sorted
      * */
     public int[] sorted(int @NotNull [] array) {
         int[] newArray = new int[array.length];
@@ -74,7 +74,7 @@ public class PrimitivesInsertionSort {
      * Uses insertion sort {@link PrimitivesInsertionSort#sort(double[])} to sort a double[] array.
      * This method sorts the given array and returns new double[] array.
      *
-     * @param array - array a copy of witch should be sorted
+     * @param array - array a copy of which should be sorted
      * */
     public double[] sorted(double @NotNull [] array) {
         double[] newArray = new double[array.length];
