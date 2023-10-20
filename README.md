@@ -25,6 +25,14 @@ Implemented algorithms:
     &emsp;<b>Time Complexity:</b> O(N^2)
     </br>&emsp;<b>Auxiliary Space:</b> O(1)
 
+   * <b>[Shuttle (Cocktail) Sort](https://www.geeksforgeeks.org/cocktail-sort/ "Cocktail Sort") (Java).</b>
+    Shuttle (Cocktail) Sort is a variation of Bubble sort. The Bubble sort algorithm always traverses elements from left and
+    moves the largest element to its correct position in the first iteration and second-largest in the second iteration and so on.
+    Shuttle (Cocktail) Sort traverses through a given array in both directions alternatively.
+    <b><h4>Complexity Analysis of Shuttle (Cocktail) Sort:</h4></b>
+    &emsp;<b>Time Complexity:</b> O(N^2)
+    </br>&emsp;<b>Auxiliary Space:</b> O(1)
+
  * Search:
    * <b>[Binary Search](https://www.geeksforgeeks.org/binary-search/ "Binary Search – Data Structure and Algorithm Tutorials") (Java).</b>
    Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half.
