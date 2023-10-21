@@ -6,8 +6,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * The class is used to implement shuttle sort algorithm for collections and not primitive arrays.
+ *
+ * @author Shcherba Vladislav
+ * @version 1.0
+ * */
 public class ShuttleSort<T extends Comparable<T>> {
 
+    /**
+     * Implements shuttle sort and sorts array of <T> type.
+     * This method sorts the given array and returns nothing.
+     *
+     * @param array - array that should be sorted
+     * */
     public void sort(T @NotNull [] array) {
         boolean swapped = false;
         int start = -1;
@@ -41,6 +53,12 @@ public class ShuttleSort<T extends Comparable<T>> {
         } while (swapped);
     }
 
+    /**
+     * Implements shuttle sort and sorts list of <T> type.
+     * This method sorts the given list and returns nothing.
+     *
+     * @param list - list that should be sorted
+     * */
     public void sort(@NotNull List<T> list) {
         boolean swapped = false;
         int start = -1;
@@ -74,6 +92,12 @@ public class ShuttleSort<T extends Comparable<T>> {
         } while (swapped);
     }
 
+    /**
+     * Uses shuttle sort {@link ShuttleSort#sort(Comparable[])} to sort an array copy of <T> type and returns him.
+     *
+     * @param array - array a copy of which should be sorted
+     * @return - new array in the sorted order
+     * */
     public T[] sorted(T @NotNull [] array) {
         T[] newArray = Arrays.copyOf(array, array.length);
         sort(newArray);
@@ -81,6 +105,12 @@ public class ShuttleSort<T extends Comparable<T>> {
         return newArray;
     }
 
+    /**
+     * Uses shuttle sort {@link ShuttleSort#sort(List)} to sort a list copy of <T> type and returns him.
+     *
+     * @param list - list a copy of which should be sorted
+     * @return - new list in the sorted order
+     * */
     public List<T> sorted(@NotNull List<T> list) {
         List<T> newList = new ArrayList<>(list);
         sort(newList);
