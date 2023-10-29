@@ -33,6 +33,13 @@ Implemented algorithms:
     &emsp;<b>Time Complexity:</b> O(N^2)
     </br>&emsp;<b>Auxiliary Space:</b> O(1)
 
+   * <b>[Merge Sort](https://www.geeksforgeeks.org/merge-sort/ "Merge Sort – Data Structure and Algorithms Tutorials") (Java).</b>
+    Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays,
+    sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+    <b><h4>Complexity Analysis of Merge Sort:</h4></b>
+    &emsp;<b>Time Complexity:</b> O(N log(N))
+    </br>&emsp;<b>Auxiliary Space:</b> O(N)
+
  * Search:
    * <b>[Binary Search](https://www.geeksforgeeks.org/binary-search/ "Binary Search – Data Structure and Algorithm Tutorials") (Java).</b>
    Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half.
